@@ -1,6 +1,6 @@
 #!/bin/bash
-echo "Start mysql"
-/etc/init.d/mysql start -D FOREGROUND
+echo "Start mysql cluster"
+#/etc/init.d/mysql start -D FOREGROUND
 
 sleep 120
 
